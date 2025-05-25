@@ -62,3 +62,85 @@
   text-align: center;
   font-size: 0.75em;
 }
+
+.main {
+  font-family: var(--primary-font);
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+}
+
+.header {
+  font-weight: 400;
+  margin: 0 0 25px 0;
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
+}
+
+.inputs {
+  padding: 25px 50px;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  box-shadow: 0px 5px 10px 0px #aaaaaa;
+  color: #404040;
+}
+.inputs h3 {
+  font-size: 1.5em;
+  font-weight: 600;
+}
+
+.inputs p label {
+  font-weight: 600;
+}
+
+.button,
+.login,
+.header {
+  padding: 0 50px;
+}
+
+.inputs div {
+  display: flex;
+  gap: 75px;
+}
+
+input {
+  width: 250px;
+  height: 30px;
+  border-radius: 5px;
+  border: 1px solid #e5e7eb;
+}
+
+input:focus {
+  box-shadow: 5px 5px 5px 0px #aaaaaa;
+}
+
+.pass-group input:user-invalid {
+  border: 2px solid red;
+}
+
+.inputs div p {
+  display: flex;
+  flex-direction: column;
+}
+
+.button button {
+  font-weight: 600;
+  padding: 10px 50px;
+  background-color: #596d48;
+  box-shadow: 2px 2px 5px 0px #aaaaaa;
+  color: white;
+  border-radius: 5px;
+  border: 0;
+}
+
+.login a {
+  font-weight: 600;
+  color: #596d48;
+  text-decoration: none;
+}

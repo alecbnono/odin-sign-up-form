@@ -25,39 +25,63 @@
             this in your life to help you realize your deepest dreams.
           </h3>
           <h3>Sign up <em class="italics">now</em> to get started.</h3>
+          <br />
           <h3>You <em class="italics">know</em> you want to.</h3>
         </div>
         <form>
-          <h3>Let's do this!</h3>
-          <p class="first-name">
-            <label for="first-name">First Name</label>
-            <input type="text" id="first-name" placeholder="Thor" required />
-          </p>
-          <p class="last-name">
-            <label for="last-name">Last Name</label>
-            <input type="text" id="last-name" placeholder="Odinson" required />
-          </p>
-          <p class="email">
-            <label for="email">Email</label>
-            <input type="email" id="email" required />
-          </p>
-          <p class="phone">
-            <label for="phone">Phone Number</label>
-            <input type="tel" id="phone" required />
-          </p>
-          <p class="password">
-            <label for="password">Password</label>
-            <input type="password" id="password" minlength="8" required />
-          </p>
-          <p class="confirm-pass">
-            <label for="confirm-pass">Confirm Password</label>
-            <input type="password" id="confirm-pass" minlength="8" required />
-          </p>
+          <div class="inputs">
+            <h3>Let's do this!</h3>
+            <div class="name">
+              <p class="first-name">
+                <label for="first-name">FIRST NAME</label>
+                <input
+                  type="text"
+                  id="first-name"
+                  placeholder="Thor"
+                  required
+                />
+              </p>
+              <p class="last-name">
+                <label for="last-name">LAST NAME</label>
+                <input
+                  type="text"
+                  id="last-name"
+                  placeholder="Odinson"
+                  required
+                />
+              </p>
+            </div>
+            <div class="contact">
+              <p class="email">
+                <label for="email">EMAIL</label>
+                <input type="email" id="email" required />
+              </p>
+              <p class="phone">
+                <label for="phone">PHONE NUMBER</label>
+                <input type="tel" id="phone" required />
+              </p>
+            </div>
+            <div class="pass-group">
+              <p class="password">
+                <label for="password">PASSWORD</label>
+                <input type="password" id="password" minlength="8" required />
+              </p>
+              <p class="confirm-pass">
+                <label for="confirm-pass">CONFIRM PASSWORD</label>
+                <input
+                  type="password"
+                  id="confirm-pass"
+                  minlength="8"
+                  required
+                />
+              </p>
+            </div>
+          </div>
           <p class="button">
             <button type="submit">Create Account</button>
           </p>
+          <p class="login">Already have an account? <a href="#">Log in</a></p>
         </form>
-        <p class="login">Already have an account? <a href="#">Log in</a></p>
       </section>
     </div>
   </body>
